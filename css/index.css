@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600;1,700&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: Lora, sans-serif;
+	min-width: 320px;
+		display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+header {
+	background-color: #f0f0f0;
+	font-weight: 400;
+}
+.top {
+	text-align: center;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.top > a {
+	border: 1px solid #4a585f; 
+	text-decoration: none;
+	color: #000;
+	border-radius: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.top > a:hover {
+	background-color: #4a585f;
+	color: #fff;
+}
+.main {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 8%;
+	margin-bottom: 8%;
+	flex: 1 0 auto;
+}
+img {
+	height: 300px;
+	border-radius: 150px;
+}
+.text {
+	text-align: center;
+	color: #4a585f;
+}
+h1 {
+	text-decoration: overline;
+	text-decoration-color: #f0f0f0;
+}
+h2 {
+	text-decoration: overline;
+	text-decoration-color: #f0f0f0;
+}
+p > a {
+	color: #44a59c;
+	text-decoration: none;
+}
+p > a:hover {
+	color: #b91b51;
+}
+footer {
+	background-color: #f0f0f0;
+	text-align: center;
+	font-weight: 400;
+	flex: 0 0 auto;
+}
+h3 {
+	color: #7a868c;
+}
+#grid {
+	color: red;
+	position: absolute;
+	display: none;
+	padding-left: 20%;
+}
